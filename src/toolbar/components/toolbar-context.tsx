@@ -161,10 +161,10 @@ export class ToolbarProvider extends Component<ProviderProps, ProviderState> {
 const makeStyles = (theme: ToolbarTheme) =>
   StyleSheet.create({
     root: {
-      borderTopWidth: 1,
-      borderLeftWidth: 1,
-      borderRightWidth: 1,
-      borderColor: theme.color,
+      // borderTopWidth: 1,
+      // borderLeftWidth: 1,
+      // borderRightWidth: 1,
+      // borderColor: theme.color,
       position: 'relative',
       backgroundColor: theme.background,
       width: '100%',
